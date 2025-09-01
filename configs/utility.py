@@ -478,7 +478,7 @@ def wget_download(link, folder, file_name=''):
 def download_model(link, yaml_link='', folder=models_folder):
   # TODO: this function isn't elegant :/
   global models_downloaded
-  file_name = link.split('/')[-
+  file_name = link.split('/')[-1]
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
@@ -530,6 +530,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
