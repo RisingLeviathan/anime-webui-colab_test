@@ -259,8 +259,7 @@ def patch_list():
     'pip uninstall -q httpx',
     'pip install -q httpx',
     'pip uninstall torch torchvision torchaudio xformers -y',
-    'pip install -q torch==2.8.0 --extra-index-url https://download.pytorch.org/whl/torch',
-    'pip install -q torchvision'
+    'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers'
 
     # TODO: remove this after this is resolved in main webui repo
@@ -531,6 +530,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
