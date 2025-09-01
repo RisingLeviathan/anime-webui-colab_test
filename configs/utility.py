@@ -260,8 +260,8 @@ def patch_list():
     'pip install -q httpx',
     'pip uninstall tokenizers',
     'pip uninstall transformers',
-    'pip install -y transformers',
-    'pip install -y tokenizers --extra-index-url https://pypi.org/simple',
+    'pip install transformers --extra-index-url https://download.pytorch.org/whl/cu121',
+    'pip install tokenizers --extra-index-url https://pypi.org/simple',
     'pip uninstall torch torchvision torchaudio xformers -y',
     'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers'
@@ -534,6 +534,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
