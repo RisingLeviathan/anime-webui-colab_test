@@ -260,12 +260,14 @@ def patch_list():
     'pip install -q httpx',
     'pip uninstall tokenizers',
     'pip uninstall transformers',
+    'pip install jedi',
+    'pip install --upgrade pip setuptools wheel',
     'pip install transformers --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install tokenizers --extra-index-url https://pypi.org/simple',
     'pip uninstall torch torchvision torchaudio xformers -y',
     'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers',
-    'pip install --upgrade pip setuptools wheel',
+    
 
     # TODO: remove this after this is resolved in main webui repo
     'echo "🩹 Applying TEMPORARY fix for #53..."',
@@ -535,6 +537,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
