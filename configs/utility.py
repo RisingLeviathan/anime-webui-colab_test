@@ -272,7 +272,9 @@ def patch_list():
     extra_patches += [
       'echo "🩹 Applying torch/xformers fix for new Colab version..."',
       # https://github.com/NUROISEA/anime-webui-colab/issues/39#issuecomment-2002471138
-      'pip install -q torch==2.8.0 --extra-index-url https://download.pytorch.org/whl/cu118',
+      'pip install -q torch==2.8.0 --extra-index-url https://download.pytorch.org/whl/torch',
+      'pip install -q torchvision'
+      'pip install -q xformers'
     ]
 
   return p_list + extra_patches
@@ -528,6 +530,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
