@@ -264,7 +264,7 @@ def patch_list():
     'pip install tokenizers --extra-index-url https://pypi.org/simple',
     'pip uninstall torch torchvision torchaudio xformers -y',
     'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
-    'pip install -q xformers'
+    'pip install -q xformers',
     'pip install --upgrade pip setuptools wheel',
 
     # TODO: remove this after this is resolved in main webui repo
@@ -535,6 +535,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
