@@ -258,6 +258,7 @@ def patch_list():
     # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
     'pip uninstall -q httpx',
     'pip install -q httpx',
+    'pip install tokenizers --extra-index-url https://pypi.org/simple',
     'pip uninstall torch torchvision torchaudio xformers -y',
     'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers'
@@ -530,6 +531,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
