@@ -456,7 +456,7 @@ def aria2_download(link, folder, file_name, force_redownload=False):
 
   if not installed_aria2:
     print('📦 Installing aria2...')
-    run_shell('apt -y install -qq aria2')
+    run_shell('apt-get -y install -qq aria2')
     installed_aria2 = True
 
   print(f'⏬ Downloading {file_name} to {folder}...')
@@ -478,7 +478,7 @@ def wget_download(link, folder, file_name=''):
 def download_model(link, yaml_link='', folder=models_folder):
   # TODO: this function isn't elegant :/
   global models_downloaded
-  file_name = link.split('/')[-1]
+  file_name = link.split('/')[-
   commands = []
 
   if yaml_link not in models_downloaded and yaml_link != '':
@@ -530,6 +530,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
