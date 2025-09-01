@@ -256,14 +256,14 @@ def patch_list():
 
     'echo "🩹 Applying httpx fix for new Colab version..."',
     # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
-    'pip install -q httpx==0.24.1', 
+    'pip install -q httpx', 
 
     # TODO: remove this after this is resolved in main webui repo
     'echo "🩹 Applying TEMPORARY fix for #53..."',
     'echo "🔗 https://github.com/NUROISEA/anime-webui-colab/issues/53"',
     # https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/16732#issuecomment-2553646760,
     'pip uninstall wandb -y',
-    'pip install -q wandb==0.15.12',
+    'pip install -q wandb',
   ]
 
   if chosen_webui_version in ['stable']:
@@ -271,7 +271,7 @@ def patch_list():
       'echo "🩹 Applying torch/xformers fix for new Colab version..."',
       # https://github.com/NUROISEA/anime-webui-colab/issues/39#issuecomment-2002471138
       'pip uninstall torch xformers -y',
-      'python -m pip install -q torch==2.0.1 torchvision==0.15.2 --extra-index-url https://download.pytorch.org/whl/cu118 xformers==0.0.21',
+      'python -m pip install -q torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118 xformers',
     ]
 
   return p_list + extra_patches
@@ -525,4 +525,5 @@ notices = [
 ]
 
 for notice in notices:
+
   print(notice)
