@@ -265,6 +265,7 @@ def patch_list():
     'pip uninstall torch torchvision torchaudio xformers -y',
     'pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers'
+    'pip install --upgrade pip setuptools wheel',
 
     # TODO: remove this after this is resolved in main webui repo
     'echo "🩹 Applying TEMPORARY fix for #53..."',
@@ -534,6 +535,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
