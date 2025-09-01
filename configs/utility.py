@@ -256,8 +256,9 @@ def patch_list():
 
     'echo "🩹 Applying httpx fix for new Colab version..."',
     # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
-    'pip uninstall -q httpx'
-    'pip install -q httpx==0.28.1', 
+    'pip uninstall -q httpx',
+    'pip install -q httpx==0.28.1 -y',
+    'pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118',
 
     # TODO: remove this after this is resolved in main webui repo
     'echo "🩹 Applying TEMPORARY fix for #53..."',
@@ -528,4 +529,5 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
