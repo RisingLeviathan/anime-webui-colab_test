@@ -267,7 +267,7 @@ def patch_list():
     'pip install -q torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
     'pip install -q xformers',
     'pip install --upgrade -q pip setuptools wheel',
-    'import torch',
+    import torch
     
 
     # TODO: remove this after this is resolved in main webui repo
@@ -538,6 +538,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
