@@ -258,16 +258,16 @@ def patch_list():
     'echo "🩹 Applying httpx fix for new Colab version..."',
     # https://github.com/NUROISEA/anime-webui-colab/issues/35#issuecomment-1801356768
     'pip uninstall -q httpx -y',
-    'pip install -q httpx',
+    'pip install -q httpx --use-pep517',
     'pip uninstall -q tokenizers -y',
     'pip uninstall -q transformers -y',
-    'pip install -q jedi',
-    'pip install -q transformers --extra-index-url https://download.pytorch.org/whl/cu121',
-    'pip install -q tokenizers --extra-index-url https://pypi.org/simple',
+    'pip install -q jedi --use-pep517',
+    'pip install -q transformers --extra-index-url https://download.pytorch.org/whl/cu121 --use-pep517',
+    'pip install -q tokenizers --extra-index-url https://pypi.org/simple --use-pep517',
     'pip uninstall -q torch torchvision torchaudio xformers -y',
-    'pip install -q torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121',
-    'pip install -q xformers',
-    'pip install --upgrade -q pip setuptools wheel',
+    'pip install -q torch torchvision --extra-index-url https://download.pytorch.org/whl/cu121 --use-pep517',
+    'pip install -q xformers --use-pep517',
+    'pip install --upgrade -q pip setuptools wheel --use-pep517',
     
 
     # TODO: remove this after this is resolved in main webui repo
@@ -538,6 +538,7 @@ notices = [
 for notice in notices:
 
   print(notice)
+
 
 
 
