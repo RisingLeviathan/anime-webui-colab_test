@@ -200,38 +200,38 @@ Automatically downloads when selecting ControlNet models
 
 [colab-icon]: https://colab.research.google.com/assets/colab-badge.svg
 
-[7thla]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/7th_layer.ipynb
-[8528d]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/8528-diffusion.ipynb
-[anima]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animagine-xl.ipynb
-[anime]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/animeinourworld.ipynb
-[anymx]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_mix.ipynb
-[anyv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v3.ipynb
-[anyv4]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/anything_v4.ipynb
-[camel]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/camelliamix.ipynb
-[chame]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/chameleonai-mix.ipynb
-[count]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/counterfeit.ipynb
-[darks]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/dark_sushi_mix.ipynb
-[drbob]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/drbob2142_mix_models.ipynb
-[eimis]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/eimis_anime_diffusion.ipynb
-[elysi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/elysium_anime.ipynb
-[every]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/everything.ipynb
-[evtv3]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/evt_v3.ipynb
-[expmi]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/expmix_line.ipynb
-[grape]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/grapefruit.ipynb
-[henta]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/hentai_diffusion.ipynb
-[midni]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/midnight_mixes.ipynb
-[mix00]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/soul0000.ipynb
-[mixin]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mixing-cauldron.ipynb
-[mixpr]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/mix-pro-v3.ipynb
-[orang]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/orange_mixs.ipynb
-[paste]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/pastel_mix.ipynb
-[proto]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/protothing_200.ipynb
-[rasge]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
-[somet]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/something.ipynb
-[voxo-]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/voxo.ipynb
-[waifd]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/waifu_diffusion.ipynb
+[7thla]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/7th_layer.ipynb
+[8528d]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/8528-diffusion.ipynb
+[anima]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/animagine-xl.ipynb
+[anime]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/animeinourworld.ipynb
+[anymx]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/anything_mix.ipynb
+[anyv3]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/anything_v3.ipynb
+[anyv4]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/anything_v4.ipynb
+[camel]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/camelliamix.ipynb
+[chame]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/chameleonai-mix.ipynb
+[count]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/counterfeit.ipynb
+[darks]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/dark_sushi_mix.ipynb
+[drbob]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/drbob2142_mix_models.ipynb
+[eimis]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/eimis_anime_diffusion.ipynb
+[elysi]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/elysium_anime.ipynb
+[every]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/everything.ipynb
+[evtv3]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/evt_v3.ipynb
+[expmi]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/expmix_line.ipynb
+[grape]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/grapefruit.ipynb
+[henta]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/hentai_diffusion.ipynb
+[midni]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/midnight_mixes.ipynb
+[mix00]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/soul0000.ipynb
+[mixin]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/mixing-cauldron.ipynb
+[mixpr]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/mix-pro-v3.ipynb
+[orang]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/orange_mixs.ipynb
+[paste]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/pastel_mix.ipynb
+[proto]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/protothing_200.ipynb
+[rasge]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/rasgeath_self_made_sauce.ipynb
+[somet]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/something.ipynb
+[voxo-]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/voxo.ipynb
+[waifd]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/waifu_diffusion.ipynb
 
-[own-model]: https://colab.research.google.com/github/NUROISEA/anime-webui-colab/blob/main/notebooks/provide_your_own_models.ipynb
+[own-model]: https://colab.research.google.com/github/RisingLeviathan/anime-webui-colab_test/blob/main/notebooks/provide_your_own_models.ipynb
 
 <!--
 #######################################################################################################################
